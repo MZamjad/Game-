@@ -109,7 +109,28 @@ h1{
 .hide{
     display: none;
  }
+.massage{
+
+ color: #2a1ed7ea;
  
+ font-size: 150px;
+ display: inline;
+ height: none;
+ 
+
+}
+.hide{
+    display: none;
+ }
+ 
+.alert{
+    background-color: rgb(204, 105, 105);
+    display: inline;
+    font-size: 100px;
+}
+.hiden{
+    display: none;
+}
 
 .massage{
 
@@ -121,6 +142,10 @@ h1{
  
 
 }
+.hide{
+    display: none;
+ }
+ 
 .alert{
     background-color: rgb(204, 105, 105);
     display: inline;
@@ -129,13 +154,21 @@ h1{
 .hiden{
     display: none;
 }
-media screen and (max-width: 768px) {
+
+#msg{
+display: inline;
+}
+@media screen and (max-width: 768px) {
     /* Styles for tablets and smaller devices */
   }
   
   @media screen and (max-width: 480px) {
     /* Styles for mobile phones */
   }
+ 
+
+
+ 
 
 
 
