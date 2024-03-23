@@ -105,59 +105,40 @@ h1{
     background-color: #1ed758;
     border-radius: 3vmin; 
 }
-
 .hide{
-    display: none;
- }
-.massage{
-
- color: #2a1ed7ea;
- 
- font-size: 150px;
- display: inline;
- height: none;
- 
-
-}
-.hide{
-    display: none;
- }
- 
-.alert{
-    background-color: rgb(204, 105, 105);
     display: inline;
-    font-size: 100px;
-}
-.hiden{
+    height: none;
     display: none;
-}
+
+ }
+ #msg{
+    display: none;
+    }
+
+
 
 .massage{
 
  color: #2a1ed7ea;
  
- font-size: 150px;
+ font-size: 75px;
  display: inline;
  height: none;
  
 
 }
-.hide{
-    display: none;
- }
+
  
 .alert{
     background-color: rgb(204, 105, 105);
     display: inline;
-    font-size: 100px;
+    font-size: 75px;
 }
 .hiden{
     display: none;
 }
 
-#msg{
-display: inline;
-}
+
 @media screen and (max-width: 768px) {
     /* Styles for tablets and smaller devices */
   }
@@ -165,10 +146,7 @@ display: inline;
   @media screen and (max-width: 480px) {
     /* Styles for mobile phones */
   }
- 
-
-
- 
+  
 
 
 
