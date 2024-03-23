@@ -77,7 +77,7 @@ const chckWinner = () =>{
       buttonsStart.classList.remove("hidden");
       alertMsg.classList.add("hiden");
       buttonrests.classList.add("hidene");
-      box.classList.remove("boxx");
+      box.classList.remove("Boxx");
       for (box of boxess){
         box.disabled = true;
       }
@@ -98,8 +98,10 @@ const chckWinner = () =>{
   }
   
 const dissableboxes =() =>{
-  for(let box of boxess){
-    box.disabled=false
+  for (box of boxess){
+    box.disabled = false;
+  
+  
     box.innerText ="";
     TurnO=true;
     box.classList.remove("hite");
@@ -109,11 +111,12 @@ const dissableboxes =() =>{
     buttonsStart.classList.add("hidden");
     alertMsg.classList.add("hiden");
       buttonrests.classList.add("hidene");
+  }
 
     x = 0;
     
     
-  }}
+  }
  
 
 buttonrests.addEventListener("click", () => {
